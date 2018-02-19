@@ -83,6 +83,11 @@ Slutsats: För enkelhet bör samma processor användas till allt då det finns l
 ## Skiss
 Spelplanen är uppdelad i 8x8 rutor med en avskiljare mellan varandra för att pjäserna inte ska kunna glida över till rutan brevid. Spelplanen är kopplad till en arduinos 8 digital out, 8 Analog in för multiplex av 64 sensorer. Spelplanen har även 1 digital in för knappen samt 4 digital out för LED kopplad till arduinon för I/O.
 <img src="./Ritningar/spelbräde.svg">
+
+### Vändningsarmen
+Vändnings armen är en servo motor kopplad till två metal armar vartpå det sitter en electromagnet. Denna mekanism är det som kommer att plocka up och lägga ner pjäserna för Othello spelet. 
+<img src="./Ritningar/lever.svg">
+
 ## Delar
 | Del | Benämning | Antal | Butik 1 | Butik 2 |
 | --- | --------- | ----- | ------- | ------- |
@@ -96,5 +101,12 @@ Spelplanen är uppdelad i 8x8 rutor med en avskiljare mellan varandra för att p
 | 1.7 | LED | 4st | x | y |
 | 1.8 | Knapp | 1st | x | y |
 | 1.9 | Gummifötter | 4st | x | y |
+| 3.1 | Servo, aurdino controlled | 1st | https://www.elfa.se/sv/servomotor-180-vdc-parallax-900-00005/p/17319437?q=servo&page=2&origPos=2&origPageSize=50&simi=99.63 | https://www.m.nu/servo-motorer-robotics/micro-servo-sg92r | 
+| 3.2 | Metal rod | 1st | x | y | 
+| 3.3 | Electromagnet | 1st | x | y |
+| 3.4 | Screw for micro servo SG92R | 2st | x | y |
+
+
+
 ## Tidsplan
 
